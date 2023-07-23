@@ -1,0 +1,38 @@
+h1 {
+    color: #6594e0;/*文字色*/
+    /*線の種類（点線）2px 線色*/
+    border-bottom: dashed 2px #6594e0;
+  }
+h2 {
+    color: #6594e0;/*文字色*/
+.balloon1-left {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #e0edff;
+}
+
+.balloon1-left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #e0edff;
+}
+
+.balloon1-left p {
+  margin: 0;
+  padding: 0;
+}
+a {
+    color: #6594e0;/*文字色*/
+    /*線の種類（点線）2px 線色*/
+    border-bottom: dashed 2px #6594e0;
+  }   
