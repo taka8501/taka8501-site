@@ -26,24 +26,7 @@
 <h1></h1>
 <h1></h1>
 <h1></h1>
-<h2>ツイッタに行きたいときのリンク（）</h2>	    
- <a href="javascript:twitText()"><img src="twitter-a.png" alt="Send to Twitter" width="61" height="23"></a>
-function twitText() {
-	var s, url;
-	s = "投稿するテキスト";
-	url = document.location.href;
-	
-	if (s != "") {
-		if (s.length > 140) {
-			//文字数制限
-			alert("テキストが140字を超えています");
-		} else {
-			//投稿画面を開く
-			url = "http://twitter.com/share?url=" + escape(url) + "&text=" + s;
-			window.open(url,"_blank","width=600,height=300");
-		}
-	}
-}
+
 <script type="text/javascript">
 if (history.length < 2) {
 	document.write("<a href='javascript:self.close()'>閉じる</a>");
